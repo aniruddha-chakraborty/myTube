@@ -1,0 +1,28 @@
+{
+      "name": "masnun/phptube",
+      "description": "phptube allows scraping youtube and getting videos url for download",
+      "type": "library",
+      "keywords": ["youtube","video"],
+      "homepage": "https://github.com/masnun/phptube",
+
+      "authors": [
+          {
+              "name": "Abu Ashraf Masnun",
+              "email": "masnun@gmail.com",
+              "homepage": "http://masnun.me"
+          }
+      ],
+
+      "support": {
+          "email": "masnun@gmail.com"
+      },
+
+      "require": {
+  	    "ext-curl": "*"
+      },
+
+      "autoload": {
+          "psr-4": "src/"
+      }
+
+}
